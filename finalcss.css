@@ -1,0 +1,95 @@
+nav ul li a {
+    padding: 5px 25px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+h2 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.abt {
+    border-style: dotted;
+    border-radius: 10px;
+    margin: 55px;
+    padding: 100px;
+   
+}
+button{
+    border-radius: 20px;
+}
+
+.lft{
+    float: left;
+    width: 50%;
+}
+
+.rit{
+    float: right;
+    width: 50%;
+}
+
+img{
+    width: 400px;
+    border-radius: 40px;
+    border-style:dashed;
+}
+
+nav ul li a:hover{
+    color: #ff0000;
+}
+
+header {
+	padding-top:20px;
+	margin-bottom: 25px;
+}
+
+footer {
+    height: 40px;
+    background: #a4dcff;
+    border-radius: 10px;
+    border: #000000 solid 1px;    
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+
+.main {
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: #a4dcff;
+}
+
+
+
+div table{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.center{
+    text-align: match-parent;
+	max-width:75%;
+	margin: auto;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+body {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #89d4ff;
+    color: #000000;
+}
+
+form label{
+    display: inline-block;   
+    width: 80px;
+}
+    

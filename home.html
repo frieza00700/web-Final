@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/finalcss.css">
+    <script src="js/final.js"></script>
+</head>
+<body>
+	<header style="text-align: center;">
+        <h1>
+             Hi,&nbsp; It's Me
+        </h1>
+        <img src="files/pic.jpeg">
+        <h1>Mahsa Ghasemi</h1>
+        <h2>Seneca College ,Toronto (Student) </h2>
+</header>
+<section class="center">
+<nav style="text-align: center;">
+    <ul style="list-style: none;">	
+        <button>
+            <li><a href="files/Resume.docx" download="resume">&DownArrowBar;Resume</a></button></li> &nbsp;
+        <button>
+            <li><a href="#contact">Contact Me</a></button>
+        </li>
+    </ul>
+</nav>
+
+<div class="abt" style="border: 2px;">
+    <div class="lft">
+        <h2>About Me and Academic Honesty</h2>
+        <p>I was born and raised in Iran. It's full of diversity and has so many historical places, 
+            nature, and culture. Approximately three years ago I moved to Canada. Having the opportunity 
+            to live in North America was my dream.  I come from a small family, I have one brother, 
+            he is 3 years younger than me. We are like friends and always support each other. 
+            My mother was a teacher and left home early when I was two years old, 
+            so I had to go to kindergarten. In fact, I grew up in the kindergarten 
+            and I believe that kindergarten teaches social skills to children. 
+            Since I was five years old, I have been swimming regularly. 
+            Swimming is my favorite sport and my favorite hobby. When I 
+            was 5 years old, I began swimming training and this training 
+            lasted for 15 years. My performance in the competition was not 
+            good at the beginning, but in the end, I was able to win two of the races. 
+            I learned the value of effort and friendly competition through racing. 
+            Eventually, I became a swimming instructor after continuous efforts. 
+            I studied IT engineering in my country.  I studied in the Zanjan university. 
+            It is one of the best private universities in our country. After graduation, 
+            I worked in a company where I gained too much experience. 
+            The first was an ISP company, and the second was a hardware company. 
+            I believe that life has too many experiences that make it beautiful. 
+            Although my life isn't filled with good things. 
+            I was informed one year ago that my father was suffering from cancer. 
+            He sold everything to pay for treatment. because the treatments in my 
+            country are too expensive. I have to work , but I hope 
+            that he will recover and we can return to our previous lives.
+            I declare that my assignment is whole my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied
+            manually or electronically from other source(including web sites) except for the information provided by the instructors and / or made<br>
+            available in tis assignment for my use.
+            <br>
+            <br>
+            Date :&nbsp  15<sup>th</sup> April , 2022
+            </p>
+        </div> 
+    <div class="rit">
+        <p>
+        <h2> &nbsp Basic Information :</h2>
+            <ul>
+                <li>NAME &nbsp&nbsp&nbsp: &nbsp&nbsp Mahsa Ghasemi</li><br>
+                <li>AGE &nbsp&nbsp&nbsp: &nbsp&nbsp 24</li><br>
+                <li>EMAIL &nbsp&nbsp&nbsp: &nbsp&nbsp mghasemi5@myseneca.ca</li><br>
+                <li>LANGUAGE &nbsp&nbsp&nbsp: &nbsp&nbsp Persian, Arabic, English, French</li><br>
+                <li>STUDENT ID &nbsp&nbsp&nbsp: &nbsp&nbsp 152449195</li><br> 
+            </ul>
+        </p>
+    </div>
+
+</div>
+
+<div>
+    <p>
+    <br>
+<br>
+<div class="school">
+    
+    <Table border="1px" style="border-style: hidden;">
+        <tr>
+            <td style="color: rgb(0, 89, 255);"><h2>Home Education</h2></td>
+            <td><p>Completed my Education from my hometown in Iran.<br>
+                <b>Zanjar University</b><br>
+                <br> Under the Supervision of <font color="grey">Dr.Awesome.</font>   <br>
+                Awarded with all scholarships in the world.</p>
+           </td>
+        </tr>   
+    <tr><td style="color: rgb(0, 89, 255);"><h3>2020 - 2022(expected)</h3>
+    <h2>Programming Diploma</h2></td>
+    <td>
+    <b>SENECA COLLEGE</b><br>
+    <br><p>Under the Supervision of <font color="grey">Dr.Awesome.</font>   <br>
+Awarded with all scholarships in the world.</p></td>
+</tr>
+</table>
+</p>
+</div>
+</div>
+
+<br><br>
+<section class="main">
+    <h2 style="font-size: 30px;"><strong><u>Contact Me</u></strong></h2>
+<hr>
+<form id = "contact" method ="post"   action = "https://httpbin.org/post" >
+<p>
+<input type ="hidden" name = "fullName" value ="Mahsa Ghasemi"/>
+<input type ="hidden" name = "StudentNumber" value ="152449195"/>
+
+ <p><label for="Uname" > Name : </label> 
+ <input type= "text"  id="Uname" required>
+ </p>
+ <p>
+    <label> Email :</label>
+    <input type="email"  id="email" required>
+</p>
+<p><label for="addrs"> Address : </label> 
+    <input type= "text" id="addrs" required>
+</p>
+<p>
+    <label>Purpose :</label>
+    <input type = "radio"  id = "que"> 
+    Question &nbsp;
+    <input type="radio"  id = "comm" >
+    Comment &nbsp;
+    <input type="radio"  id = "hirr" onclick="function slider()">
+    Hiring
+</p>
+
+    <label for="choice"> Province :</label>
+<input list="cities" id="choice" name="ice-cream-choice" required/>
+<datalist id="cities">
+        <option value="AB">Alberta</option>
+        <option value="BC">British Columbia</option>
+        <option value="MB">Manitoba</option>
+        <option value="NB">New Brunswick</option>
+        <option value="NS">Nova Scotia</option>
+        <option value="ON">Ontario</option>
+        <option value="PE">Prince Edward Island</option>
+        <option value="Qc">Quebec</option>
+        <option value="SK">Saskatchewan</option>
+        <option value="NT">Northwest Territories</option>
+        <option value="YT">Yukon</option>
+</datalist>
+ 
+ <p><label for="phone">Phone Number : </label>
+ <input type="tel" name="phone" id="phone" placeholder="(xxx)xxx-xxxx"  required />
+</p>    
+
+<p> <label>Comment :</label>
+<textarea name = "comment" width=35px rows =2 >
+</textarea> 
+</p>        
+
+<input type ="submit" value ="Submit" >
+ &nbsp;
+<input type = "reset" value ="Reset">
+</p>
+</form>
+</section>
+<br>
+<footer>
+    <div>
+        &copy; 2022 Mahsa Ghasemi
+    </div>
+</footer>
+</section>
+</body>
+</html>
